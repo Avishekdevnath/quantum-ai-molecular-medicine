@@ -1,0 +1,4 @@
+Phase_Name,Timeframe,TRL_Range,Physical_Qubits_Min,Physical_Qubits_Max,Logical_Qubits_Min,Logical_Qubits_Max,Two_Qubit_Error_Rate,Dominant_Algorithms,Chemistry_Capability,Key_Milestones
+NISQ / Utility Era,2024-2027,TRL 3-4,100,1000,0,0,1.0e-03 to 1.5e-02,VQE / QML / QUBO,Toy hydrides (N <= 8) & molecular docking pose ranking,Zero-Noise Extrapolation; Error mitigation; Tensor network hybrid co-processing
+Early FTQC Era,2028-2031,TRL 5-6,1000,50000,5,50,5.0e-04 to 1.0e-03,Transversal Clifford + QPE,Transition metal dimers & small ligand binding (12-28 qubits),Distance-9 to 15 logical qubits; First magic state distillation factory prototypes
+Mature FTQC Era,2032-2035+,TRL 7-9,100000,1000000,100,1000,1.0e-04 to 5.0e-04,Double-factorized QPE & Trotter,FeMoco (CAS 54) & Cytochrome P450 (CAS 64) catalytic centers,1458:1 physical-to-logical ratio achieved; Multi-factory parallel magic state distillation

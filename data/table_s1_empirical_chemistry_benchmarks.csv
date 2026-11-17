@@ -1,0 +1,17 @@
+Target_Molecule,Active_Space,Qubits,CNOT_Count,Pauli_Terms,Algorithm_Ansatz,Hardware_Platform,Execution_Status,Delta_E_QPU_kcal_mol,Delta_E_QPU_mHa,Chemical_Accuracy,Classical_Baseline_Method,Delta_E_Classical_kcal_mol,QPU_WallClock_Seconds,Classical_WallClock_Seconds,Reference_Citation
+H2,CAS(2 2),2,12,15,VQE / UCCSD,IBM Transmon,Physical QPU,0.05,0.08,Yes,FCI / cc-pVDZ,0.001,72.0,0.01,Peruzzo et al. (2014)
+HeH+,CAS(2 2),2,18,15,VQE / UCCSD,IBM Superconducting,Physical QPU,0.94,1.50,Yes,FCI / STO-3G,0.001,90.0,0.02,O'Malley et al. (2016)
+H3+,CAS(3 3),3,32,27,VQE / UCCSD,Trapped-Ion (Ca+),Physical QPU,0.69,1.10,Yes,FCI / cc-pVDZ,0.001,150.0,0.05,Hempel et al. (2018)
+LiH,CAS(2 2),4,112,112,VQE / UCCSD + ZNE,IBM Heron,Physical QPU,0.82,1.20,Yes,CCSD(T) / cc-pVDZ,0.020,252.0,0.10,Kandala et al. (2017)
+H4,CAS(4 4),4,76,76,VQE / HEA,Trapped-Ion (Ca+),Physical QPU,1.38,2.20,No,FCI / STO-3G,0.001,210.0,0.10,Hempel et al. (2018)
+BeH2,CAS(4 4),6,248,284,ADAPT-VQE / QNG,Quantinuum H2,Physical QPU,0.94,1.50,Yes,omegaB97X-D / def2-TZVP,1.850,768.0,0.80,Kandala et al. (2017)
+H6,CAS(6 6),6,450,450,VQE / HEA,IBM Transmon,Physical QPU,0.94,1.50,Yes,FCI / STO-3G,0.001,480.0,0.40,Kandala et al. (2017)
+H2O,CAS(4 4),8,180,1080,VQE / Hardware-Efficient,Google Sycamore,Physical QPU,1.45,2.31,No,FCI / 6-31G,0.001,510.0,0.30,Pal et al. (2024)
+NH3,CAS(6 6),12,1120,1240,VQE / UCCSD + PEC,IBM Eagle (127Q),Physical QPU,1.15,1.83,No,CCSD(T) / def2-TZVP,0.080,2040.0,2.10,Baiardi et al. (2023)
+CH4,CAS(8 8),16,2450,1460,ADAPT-VQE + ZNE,Quantinuum H1-1,Physical QPU,1.38,2.20,No,CCSD(T) / aug-cc-pVTZ,0.050,3120.0,4.50,Supplementary Table S1
+H10,CAS(10 10),10,1850,2210,Hartree-Fock Basis Rot,Google Sycamore,Physical QPU,1.13,1.80,No,DMRG / cc-pVDZ,0.050,1800.0,1.20,Arute et al. (2020)
+N2H2,CAS(12 12),12,2840,3420,Hartree-Fock Basis Rot,Google Sycamore,Physical QPU,1.82,2.90,No,CASPT2 / def2-TZVP,0.450,2400.0,3.80,Arute et al. (2020)
+Caffeine,CAS(6 6),12,1420,1650,VQE / QWC Grouped,Aer Statevector (Classical),Simulated,1.22,1.94,No,omegaB97X-D / def2-TZVP,2.100,2880.0,12.00,Supplementary Table S1
+Penicillin Core,CAS(8 8),16,3840,4200,ADAPT-VQE + PEC,Aer Statevector (Classical),Simulated,1.68,2.68,No,B3LYP-D3 / 6-31G*,3.450,22320.0,45.00,Supplementary Table S1
+FeMoco Core,CAS(10 10),20,8600,12800,Projective VQE (Sim),MPI-MPS Emulator,Simulated,3.80,6.05,No,DMRG (M=2000),1.100,259200.0,16200.00,Supplementary Table S1
+Cytochrome P450,CAS(12 12),24,14200,21500,Active-Space VQE,Tensor-Network Sim,Simulated,4.25,6.77,No,CASPT2(12 12),1.500,432000.0,43200.00,Supplementary Table S1

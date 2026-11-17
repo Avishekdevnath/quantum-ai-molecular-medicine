@@ -1,0 +1,12 @@
+Benchmark_Task,Biological_Target,Method_Name,Method_Category,Qubits,Performance_Metric,Metric_Name,WallClock_Seconds,Hardware_Platform,Reference_Citation
+Molecular Docking,SARS-CoV-2 Mpro,Crystal Native Pose,Experimental Reference,0,-9.1,Delta G (kcal/mol),0.00,Crystallography X-ray,PDB 6LU7 Reference
+Molecular Docking,SARS-CoV-2 Mpro,DiffDock,Classical AI (Generative Diffusion),0,-8.7,Delta G (kcal/mol),14.20,NVIDIA RTX 4090 GPU,Corso et al. (ICLR 2023)
+Molecular Docking,SARS-CoV-2 Mpro,Glide-XP,Classical Physics Docking,0,-8.5,Delta G (kcal/mol),8.50,Intel Xeon CPU,Friesner et al. (J. Med. Chem.)
+Molecular Docking,SARS-CoV-2 Mpro,D-Wave Advantage 5000Q,Quantum Annealing (QUBO),428,-8.4,Delta G (kcal/mol),13.20,D-Wave Advantage QPU,Robert et al. / Khalaj et al.
+Kinase Screening,EGFR Kinase Inhibitors,Random Forest,Classical Baseline ML,0,0.84,ROC-AUC Score,0.20,Intel Xeon CPU,Supplementary Table S1
+Kinase Screening,EGFR Kinase Inhibitors,DeepChem GraphConv,Classical Deep GNN,0,0.89,ROC-AUC Score,1.80,NVIDIA RTX 4090 GPU,Wu et al. (Chem. Sci.)
+Kinase Screening,EGFR Kinase Inhibitors,Quantum Kernel SVM,Hybrid Quantum AI,16,0.86,ROC-AUC Score,1680.00,IBM Heron Transmon QPU,Nguyen et al. / Table S1
+Patient Response,CTLA4 Patient Cohort,QSVM Angle Map,Hybrid Quantum AI,5,0.89,ROC-AUC Score,840.00,IBM Superconducting,Nguyen et al. (2024)
+Immunotherapy,Cancer Response Cohort,Quantum Ensemble QNN,Hybrid Quantum AI,8,0.91,Accuracy Score,1260.00,IonQ Aria (Trapped Ion),Rhrissorrakrai et al. (2026)
+Sequence Assembly,DNA Assembly (100bp),MEGAHIT / SPAdes,Classical de Bruijn Graph,0,1.00,Assembly Match Ratio,0.05,Intel Xeon CPU,Li et al. / Bankevich et al.
+Sequence Assembly,DNA Assembly (100bp),D-Wave 2000Q Annealer,Quantum Annealing (QUBO),80,0.98,Assembly Match Ratio,14.50,D-Wave 2000Q QPU,Nal et al. (2022)

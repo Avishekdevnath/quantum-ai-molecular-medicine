@@ -1,0 +1,7 @@
+Molecular_Target,Active_Space,Logical_Qubits_Required,T_Gate_Count,Target_Code_Distance_d,Code_Physical_Qubits,Magic_State_Distillation_Qubits,Total_Physical_Qubits_Required,Wall_Clock_Time_Days,Primary_Reference
+LiH,CAS(4 4),8,1.40e+05,11,1936,1904,3840,0.02,Reiher et al. (PNAS 2017)
+H2O,CAS(8 8),16,8.60e+05,13,5408,5376,10784,0.08,Beverland et al. (2022)
+Caffeine,CAS(14 14),28,4.20e+07,15,12600,12656,25256,0.35,Supplementary Table S1
+Penicillin Core,CAS(24 24),48,2.50e+08,17,27744,28128,55872,1.20,Supplementary Table S1
+FeMoco [Fe4S4],CAS(54 54),108,1.10e+10,19,77976,79488,157464,4.20,Reiher et al. (PNAS 2017)
+Cytochrome P450,CAS(64 64),128,3.80e+10,21,112896,115712,228608,8.50,Blunt et al. (2022)

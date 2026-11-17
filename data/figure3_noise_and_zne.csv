@@ -1,0 +1,11 @@
+Dataset_Type,Parameter_Name,X_Value,Y_Value,Y_Error,Platform_or_Method,Notes
+ZNE_Measurement,Folding_Factor_lambda,1.0,-7.8566,0.0030,IBM Heron (ZNE),Physical QPU Raw Shots (Unitary Folding c=1)
+ZNE_Measurement,Folding_Factor_lambda,2.0,-7.8272,0.0038,IBM Heron (ZNE),Physical QPU Raw Shots (Unitary Folding c=2)
+ZNE_Measurement,Folding_Factor_lambda,3.0,-7.7942,0.0046,IBM Heron (ZNE),Physical QPU Raw Shots (Unitary Folding c=3)
+ZNE_Measurement,Folding_Factor_lambda,4.0,-7.7576,0.0055,IBM Heron (ZNE),Physical QPU Raw Shots (Unitary Folding c=4)
+ZNE_Measurement,Folding_Factor_lambda,5.0,-7.7174,0.0065,IBM Heron (ZNE),Physical QPU Raw Shots (Unitary Folding c=5)
+ZNE_Benchmark,Exact_FCI_Energy,0.0,-7.8824,0.0000,Full CI Benchmark,LiH Ground State (STO-3G active space CAS(4 4))
+ZNE_Benchmark,Chemical_Accuracy_Window,0.0,0.0016,0.0000,Theoretical Bound,1 kcal/mol window (1.594 mHa) around FCI
+Hardware_Noise,2Q_Gate_Error_Rate,0.0,0.0150,0.0000,NISQ Baseline,Standard uncalibrated superconducting QPU
+Hardware_Noise,2Q_Gate_Error_Rate,0.0,0.0040,0.0000,IBM Heron,State-of-the-art tunable-coupler transmon
+Hardware_Noise,2Q_Gate_Error_Rate,0.0,0.0010,0.0000,Quantinuum H2,Trapped-ion shuttling architecture benchmark
